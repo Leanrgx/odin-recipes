@@ -7,69 +7,61 @@ body{
     background-color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 30px;
-    padding-bottom: 10px;
+    margin: auto 36px;
+    border-radius: 36px;
+    padding-bottom: 24px;
 }
 
 .title{
-    font-size: 30px;
-    color: rgb(160, 160, 26);
-    padding-top: 5px;
-    padding-bottom: 5px;
     background-color: #f0ff6c;
+    color: rgb(160, 160, 26);
+    padding: 8px;
+    font-size: 28px;
 }
 
 .blkstrp{
     background-color: black;
     color: white;
-    margin-right: 5%;
-    padding-left: 2px;
+    padding-left: 8px;
 }
 
 .subtitle,
 .description{
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 3% 3% 0%;
+
 }
 
 .list{
-    text-align: left;
+    text-align: justify;
     padding-left: 20px;
     max-width: 90%;
+    color: rgb(112, 111, 111);
 }
 
 .lnks{
     background-color: #bfbfbf67;
-    border-radius: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
     color: #ffffff;
+    border: 1px solid #dfdede;
+    border-radius: 24px;
+    margin: 0px 50px;
     max-height: 450px;
     font-size: 1.3em;
+    padding: 5px;
 }
 
 .flag {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
-    height: auto;
-    width: 30%;
-    border-color: black;
+    width: 40%;
 }
 
 footer{
     text-align: center;
     font-size: 12px;
     color: rgb(89, 56, 97);
-    flex-direction: column;
 }
 
 a:link {
-    color: rgb(77, 64, 255);
+    color: rgb(132, 123, 252);
     background-color: transparent;
     text-decoration: none;
   }
@@ -80,7 +72,7 @@ a:link {
   }
   
   a:hover {
-    color: red;
+    color: rgb(88, 150, 243);
     background-color: transparent;
     text-decoration: underline;
   }
